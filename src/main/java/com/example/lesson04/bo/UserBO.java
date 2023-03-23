@@ -11,6 +11,6 @@ public class UserBO {
 	private UserMapper userMapper;
 	
 	public int addUserAsField(String name, String yyyymmdd, String email, String introduce) {
-		return userMapper.insertUserAsField;
+		return userMapper.insertUserAsField(name, yyyymmdd, email, introduce);
 	}
 }
